@@ -1,0 +1,115 @@
+// Typography
+$poppins: "Poppins", sans-serif;
+
+// Light Colors
+$light-00: #f2f2f2;
+$light-01: #f5f2ea;
+$light-02: #fdc886;
+
+// Dark Colors
+$dark-00: #010000;
+$dark-01: #545454;
+
+$navbar-item-hover-color: $light-02;
+$navbar-burger-color: $light-02;
+
+html {
+  font-family: $poppins !important;
+  background-color: $light-00 !important;
+}
+
+body {
+  font-size: 16px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $poppins !important;
+}
+
+h1.text-logo {
+  font-family: $poppins;
+  font-size: 30px;
+  font-weight: 800;
+  a {
+    display: block;
+    text-transform: lowercase;
+    color: $dark-01;
+  }
+  a:hover {
+    color: $dark-01;
+  }
+}
+
+h1.title {
+  font-size: 64px !important;
+  font-weight: 400px !important;
+  text-transform: capitalize !important;
+}
+
+p.subtitle {
+  font-size: 16px !important;
+  line-height: 26px !important;
+  font-weight: 300 !important;
+  margin: 20px 0 50px !important;
+}
+
+.donate-btn {
+  font-family: $poppins !important;
+  font-weight: 400 !important;
+  color: $light-01 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  display: inline-flex !important;
+  line-height: 50px !important;
+  text-transform: capitalize !important;
+  background-color: $light-02 !important;
+  width: 150px !important;
+  height: 50px !important;
+  border: 0em !important;
+}
+
+.hero-btn-group {
+  font-family: $poppins !important;
+  font-weight: 400 !important;
+  color: $light-01 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  /*display: inline-block !important;*/
+  line-height: 50px !important;
+  text-transform: capitalize !important;
+  background-color: $light-02 !important;
+  width: 150px !important;
+  height: 50px !important;
+  border: 0em !important;
+  transition: all ease 0.5s;
+}
+
+.hero-btn-group-secondary {
+  font-family: $poppins !important;
+  font-weight: 400 !important;
+  color: $light-01 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  line-height: 50px !important;
+  text-transform: capitalize !important;
+  background-color: $dark-01 !important;
+  width: 150px !important;
+  height: 50px !important;
+  border: 0em !important;
+}
+
+// Bulma Imports
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
