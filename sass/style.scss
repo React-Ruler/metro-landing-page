@@ -13,6 +13,10 @@ $dark-01: #545454;
 $navbar-item-hover-color: $light-02;
 $navbar-burger-color: $light-02;
 
+.navbar-burger span {
+  height: 2px !important;
+}
+
 html {
   font-family: $poppins !important;
   background-color: $light-00 !important;
